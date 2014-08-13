@@ -1,0 +1,126 @@
+.gallery{
+	min-height: 110px;
+	height: 110px
+}
+footer {
+	padding: 2em 0;
+	margin: 3em 0;
+	border-top: 1px solid #ddd;
+	color: #999;
+	text-align: center;
+}
+
+.image{
+	min-height: 100%;
+	min-width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background: center fixed;
+}
+body{
+	overflow-x: hidden; 
+	margin-right: 0px;
+}
+
+.search-form{
+	background-color: #000000;
+	height: 55px;
+	width: 590px;
+	z-index: 3;
+	position: absolute;
+	left: 200px;
+	top: 300px;
+	opacity: 0.8;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.trippal{
+	background-color: #5bc2ce;
+	color: #ffffff;
+	height: 110px;
+	width: 590px;
+	z-index: 5;
+	position: absolute;
+	left: 50px;
+	top: 100px;
+	opacity: 0.8;
+	border-bottom-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+	text-align: left;
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 60px;
+}
+.travel{
+	font-size: 25px;
+	text-align: center;
+}
+.form-group{
+	opacity: 0.99;
+	width: 480px;
+	padding: 10px;
+}
+
+#about{
+	background: #5bc2ce;
+}
+#photo-gallery{
+	background: #ffffff;
+}
+
+.btn-danger{
+	position: relative;
+	left: 470px;
+	top: -35px;
+	width: 100px;
+}
+
+.navbar-nav.nav-collapse{
+	background: #ffffff;
+	left: 0px;
+	opacity: 0.8;
+	position: absolute;
+	z-index: 3
+
+}
+
+.font{
+	font-family: 'Gloria Hallelujah', cursive;
+font-size: 20px;
+}
+
+
+.navlogin{
+	left: 400px;
+}
+
+.shopping-cart{
+	left: 400px;
+}
+.question-sign{
+	left: 400px;
+}
+
+.photogallery{
+	padding-top: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.thumbnail {
+	min-height: 120px;
+	height: 120px
+}
+
+
+ .thumbnail a > img{
+height: 110px;
+width: 200px;
+}
+img.image-resposive.images{
+	margin: 0px;
+}
