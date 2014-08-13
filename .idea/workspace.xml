@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1f42158-664c-4e55-9869-2f5e7f4f2fc4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/videos/index.html.erb" afterPath="$PROJECT_DIR$/app/views/videos/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/video.rb" afterPath="$PROJECT_DIR$/app/models/video.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/controllers/videos_controller_test.rb" afterPath="$PROJECT_DIR$/test/controllers/videos_controller_test.rb" />
     </list>
     <ignored path="onemustwatch.iws" />
@@ -112,7 +109,7 @@
         <entry file="file://$PROJECT_DIR$/test/controllers/videos_controller_test.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.85427135" vertical-offset="305" max-vertical-offset="915">
-              <caret line="43" column="58" selection-start-line="43" selection-start-column="58" selection-end-line="43" selection-end-column="58" />
+              <caret line="43" column="60" selection-start-line="43" selection-start-column="60" selection-end-line="43" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -533,7 +530,7 @@
     <entry file="file://$PROJECT_DIR$/test/controllers/videos_controller_test.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.85427135" vertical-offset="305" max-vertical-offset="915">
-          <caret line="43" column="58" selection-start-line="43" selection-start-column="58" selection-end-line="43" selection-end-column="58" />
+          <caret line="43" column="60" selection-start-line="43" selection-start-column="60" selection-end-line="43" selection-end-column="60" />
           <folding />
         </state>
       </provider>
