@@ -3,6 +3,12 @@ require 'test_helper'
 class VideosControllerTest < ActionController::TestCase
   setup do
     @video = videos(:one)
+    @update = {
+        :title => 'Hello1world',
+        :description => 'njjasfdj',
+        :video_url => 'dsfsf',
+        :number_of_views => 13
+    }
   end
 
   test "should get index" do
@@ -18,7 +24,7 @@ class VideosControllerTest < ActionController::TestCase
 
   test "should create video" do
     assert_difference('Video.count') do
-      post :create, video: { description: @video.description, number_of_views: @video.number_of_views, title: @video.title, video_url: @video.video_url }
+      post :create, :video => @update
     end
 
     assert_redirected_to video_path(assigns(:video))
@@ -35,7 +41,7 @@ class VideosControllerTest < ActionController::TestCase
   end
 
   test "should update video" do
-    patch :update, id: @video, video: { description: @video.description, number_of_views: @video.number_of_views, title: @video.title, video_url: @video.video_url }
+    put :update, :id => @video.to_param, :video => @update
     assert_redirected_to video_path(assigns(:video))
   end
 
