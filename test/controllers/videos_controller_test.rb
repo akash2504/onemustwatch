@@ -41,7 +41,7 @@ class VideosControllerTest < ActionController::TestCase
   end
 
   test "should update video" do
-    put :update, :id => @video.to_param, :video => @update  
+    put :update, :id => @video.to_param, :video => @update
     assert_redirected_to video_path(assigns(:video))
   end
 
